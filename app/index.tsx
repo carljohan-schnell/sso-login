@@ -1,4 +1,3 @@
-import '../global.css';
 import { StatusBar } from 'expo-status-bar';
 import { useColorScheme } from 'nativewind';
 import { Switch, Text, View } from 'react-native';
@@ -8,6 +7,9 @@ export default function Home() {
   const router = useRouter();
   const { colorScheme, toggleColorScheme } = useColorScheme();
   const isDarkMode = colorScheme === 'dark';
+
+  console.log('Current color scheme:', colorScheme);
+  console.log('Is dark mode:', isDarkMode);
 
   const handleSwitchChange = (value: boolean) => {
     console.log('Switch value changed to:', value);
@@ -29,6 +31,10 @@ export default function Home() {
 
       <Link href="/about" className="mt-6">
         <Text className="text-black dark:text-white">Go to about</Text>
+      </Link>
+
+      <Link href="/profile" className="mt-4">
+        <Text className="text-blue-500 dark:text-blue-400">View Profile</Text>
       </Link>
     </View>
   );
