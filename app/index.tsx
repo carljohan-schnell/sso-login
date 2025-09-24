@@ -28,7 +28,7 @@ export default function Home() {
       <Switch value={isDarkMode} onValueChange={handleSwitchChange} />
 
       <Link href="/about" className="mt-6">
-        <Text>Go to about</Text>
+        <Text className="text-black dark:text-white">Go to about</Text>
       </Link>
     </View>
   );
