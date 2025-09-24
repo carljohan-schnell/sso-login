@@ -1,6 +1,5 @@
 import { Stack } from 'expo-router';
 import '../global.css';
-
 import { useColorScheme } from 'nativewind';
 import { useEffect } from 'react';
 

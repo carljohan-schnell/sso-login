@@ -58,7 +58,7 @@ export default function Profile() {
           onPress={handleToggleTheme}
           className="w-full max-w-sm bg-blue-500 dark:bg-blue-600 rounded-lg p-4 mb-4"
         >
-          <Text className="text-white text-center font-semibold">
+          <Text className="text-white text-center font-semibold select-none">
             Toggle Theme
           </Text>
         </Pressable>

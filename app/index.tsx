@@ -29,13 +29,15 @@ export default function Home() {
 
       <Switch value={isDarkMode} onValueChange={handleSwitchChange} />
 
-      <Link href="/about" className="mt-6">
-        <Text className="text-black dark:text-white">Go to about</Text>
-      </Link>
+      <View className="flex flex-row gap-5 mt-6">
+        <Link href="/about">
+          <Text className="text-blue-500 dark:text-blue-400">About</Text>
+        </Link>
 
-      <Link href="/profile" className="mt-4">
-        <Text className="text-blue-500 dark:text-blue-400">View Profile</Text>
-      </Link>
+        <Link href="/profile">
+          <Text className="text-blue-500 dark:text-blue-400">Profile</Text>
+        </Link>
+      </View>
     </View>
   );
 }
