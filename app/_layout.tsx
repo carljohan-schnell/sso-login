@@ -8,9 +8,7 @@ export default function RootLayout() {
   const { colorScheme, setColorScheme } = useColorScheme();
 
   useEffect(() => {
-    if (colorScheme === 'light' || colorScheme === 'dark') {
-      setColorScheme(colorScheme);
-    }
+    if (colorScheme) setColorScheme(colorScheme);
   }, []);
 
   return (
