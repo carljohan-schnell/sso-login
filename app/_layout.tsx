@@ -1,7 +1,18 @@
 import { Stack } from 'expo-router';
 import '../global.css';
 
+import { useColorScheme } from 'nativewind';
+import { useEffect } from 'react';
+
 export default function RootLayout() {
+  const { colorScheme, setColorScheme } = useColorScheme();
+
+  useEffect(() => {
+    if (colorScheme === 'light' || colorScheme === 'dark') {
+      setColorScheme(colorScheme);
+    }
+  }, []);
+
   return (
     <Stack>
       <Stack.Screen
