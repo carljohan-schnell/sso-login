@@ -30,7 +30,7 @@ export default function RootLayout() {
         name="profile"
         options={{
           title: 'Profile',
-          headerShown: true,
+          headerShown: false,
         }}
       />
     </Stack>

@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <View className="flex-1 items-center justify-center bg-white dark:bg-neutral-900">
-      <StatusBar style={isDarkMode ? 'light' : 'dark'} />
+      {/* <StatusBar style={isDarkMode ? 'light' : 'dark'} /> */}
 
       <Text className="mb-1 text-xl font-mono text-black dark:text-white">
         NativeWind

@@ -15,7 +15,7 @@ export default function Profile() {
 
   return (
     <ScrollView className="flex-1 bg-white dark:bg-neutral-900">
-      <StatusBar style={isDarkMode ? 'light' : 'dark'} />
+      {/* <StatusBar style={isDarkMode ? 'light' : 'dark'} /> */}
 
       <View className="flex-1 items-center justify-center p-6">
         {/* Profile Header */}
