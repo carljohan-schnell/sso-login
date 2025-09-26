@@ -1,4 +1,4 @@
-rootProject.name = 'medium-nativewind-darkmode'
+rootProject.name = 'sso-login'
 
 dependencyResolutionManagement {
   versionCatalogs {

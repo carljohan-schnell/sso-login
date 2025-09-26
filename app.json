@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "nativewind-darkmode",
-    "slug": "nativewind-darkmode",
+    "name": "sso-login",
+    "slug": "sso-login",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
